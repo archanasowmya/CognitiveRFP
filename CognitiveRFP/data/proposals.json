@@ -1,0 +1,20 @@
+[
+  {
+    "id": "prop-1790692864200",
+    "timestamp": "2026-09-29T14:41:04.200Z",
+    "client": "Morgan Stanley Digital",
+    "industry": "FinTech & Investment Banking",
+    "requirementSummary": "Describe your service level agreements (SLAs), guaranteed uptime availability percentages, definitio...",
+    "recalledCount": 5,
+    "adaptiveScore": 97
+  },
+  {
+    "id": "prop-1790692514717",
+    "timestamp": "2026-09-29T14:35:14.717Z",
+    "client": "Morgan Stanley Digital",
+    "industry": "FinTech & Investment Banking",
+    "requirementSummary": "Describe your service level agreements (SLAs), guaranteed uptime availability percentages, definitio...",
+    "recalledCount": 5,
+    "adaptiveScore": 97
+  }
+]

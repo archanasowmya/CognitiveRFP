@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-950 text-slate-100 antialiased selection:bg-emerald-500/20 selection:text-emerald-300;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+/* Custom scrollbars for enterprise look */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090d16;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+.diff-added {
+  background-color: rgba(16, 185, 129, 0.15);
+  border-left: 3px solid #10b981;
+  padding-left: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.diff-warning {
+  background-color: rgba(245, 158, 11, 0.12);
+  border-left: 3px solid #f59e0b;
+  padding-left: 0.5rem;
+  border-radius: 0.25rem;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "cognitiverfp",
+  "version": "1.0.0",
+  "description": "CognitiveRFP — Adaptive Proposal & RFP Agent",
+  "main": "server/server.js",
+  "type": "module",
+  "scripts": {
+    "server": "node server/server.js",
+    "client": "npm --prefix client run dev",
+    "build:client": "npm --prefix client run build",
+    "dev": "node server/runner.js",
+    "start": "node server/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}

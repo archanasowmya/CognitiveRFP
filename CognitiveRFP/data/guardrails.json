@@ -1,0 +1,76 @@
+[
+  {
+    "id": "guard-001",
+    "title": "Enterprise FinTech SLA Guardrail",
+    "rule": "Do not propose 99.9% availability for regulated enterprise accounts. Default to 99.99% monthly availability with explicit 10%-50% service-credit structure when RFP involves trading, payments, or treasury operations.",
+    "industry": "FinTech & Investment Banking",
+    "category": "SLA & Reliability",
+    "isActive": true,
+    "derivedFromMemories": [
+      "mem-001",
+      "mem-002"
+    ],
+    "createdAt": "2026-01-22"
+  },
+  {
+    "id": "guard-002",
+    "title": "Healthcare Compliance & BAA Guardrail",
+    "rule": "Explicitly attach executed Business Associate Agreement (BAA) schedule, detail PHI zero-knowledge AES-256 encryption at rest, and guarantee 7-year immutable audit log retention whenever healthcare or life sciences requirements are present.",
+    "industry": "Healthcare & Life Sciences",
+    "category": "Compliance & Security",
+    "isActive": true,
+    "derivedFromMemories": [
+      "mem-003",
+      "mem-004"
+    ],
+    "createdAt": "2026-02-12"
+  },
+  {
+    "id": "guard-003",
+    "title": "High-Volume SaaS Pricing & Price-Lock",
+    "rule": "Include a tiered volume discount schedule (15-25% at scale) with 3-year rate lock and annual unused credit rollover rather than rigid seat/API license costs for enterprise procurement.",
+    "industry": "Enterprise SaaS & Cloud Infrastructure",
+    "category": "Pricing & Procurement",
+    "isActive": true,
+    "derivedFromMemories": [
+      "mem-005"
+    ],
+    "createdAt": "2025-11-02"
+  },
+  {
+    "id": "guard-004",
+    "title": "Enterprise White-Glove Support SLA",
+    "rule": "Mandate Named Technical Account Manager (TAM), 15-minute response SLA for Severity 1 incidents, and integrated Slack/Teams bridge rather than generic web ticketing.",
+    "industry": "Enterprise SaaS & Cloud Infrastructure",
+    "category": "Support & Customer Success",
+    "isActive": true,
+    "derivedFromMemories": [
+      "mem-006"
+    ],
+    "createdAt": "2025-12-10"
+  },
+  {
+    "id": "guard-005",
+    "title": "FIPS 140-2 HSM Key Custody & BYOK",
+    "rule": "Default to FIPS 140-2 Level 3 hardware security module support, customer-managed encryption keys (CMEK), and proactive third-party penetration test attestations for Tier-1 banks.",
+    "industry": "FinTech & Investment Banking",
+    "category": "Security & Encryption",
+    "isActive": true,
+    "derivedFromMemories": [
+      "mem-007"
+    ],
+    "createdAt": "2026-01-18"
+  },
+  {
+    "id": "guard-006",
+    "title": "Retail Q4 Peak Freeze & High Availability",
+    "rule": "Commit to absolute code/maintenance freeze from Nov 15 through Jan 10 with 99.999% peak availability and dedicated War Room escalation for retail clients.",
+    "industry": "Retail & E-commerce",
+    "category": "SLA & Operations",
+    "isActive": true,
+    "derivedFromMemories": [
+      "mem-008"
+    ],
+    "createdAt": "2025-10-15"
+  }
+]
